@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +57,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.17",
+    "tailwindcss": "^3.4.1",
     "webpack": "^5.90.3"
   }
 }
